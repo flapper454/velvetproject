@@ -1,0 +1,65 @@
+---
+import astroLogo from '../assets/astro.svg';
+import background from '../assets/background.svg';
+import Nav from './nav.astro';
+import '../../public/styles/global.css';
+import { game } from '../scripts/game.ts';
+import Hidden from './hidden.astro';
+---
+
+<div id="container" class="bg-red-50">
+  <Nav />
+	<main>
+		<!-- Hero Section -->
+  <section class="min-h-screen bg-gradient-to-b from-black to-velvet flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold text-neon mb-4">The Velvet Protocol</h1>
+    <p class="text-xl md:text-2xl text-mist max-w-xl mb-8">Surrender to transformation. Let go of the gray. Let the glitter in.</p>
+    <a href="#" class="bg-neon text-velvet font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-pink-400 transition">Initiate Descent</a>
+  </section>
+
+  <!-- Transformation Path -->
+  <section class="py-24 text-center">
+    <h2 class="text-3xl md:text-4xl text-neon font-bold mb-12">The 3 Phases of Becoming</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 px-4 text-left">
+      <div>
+        <h3 class="text-xl text-pink-300 font-semibold mb-2">Phase I: Unlearning</h3>
+        <p class="text-mist">Forget the rules. Unbind the brain. Your old self is a myth wrapped in beige.</p>
+      </div>
+      <div>
+        <h3 class="text-xl text-pink-400 font-semibold mb-2">Phase II: Enhancement</h3>
+        <p class="text-mist">Plump. Pout. Giggle. You’re not less — just more sparkly. Intelligence isn't leaving — it's getting a makeover.</p>
+      </div>
+      <div>
+        <h3 class="text-xl text-pink-500 font-semibold mb-2">Phase III: Radiance</h3>
+        <p class="text-mist">The new you is undeniable. The walk? Perfect. The stare? Eternal. The protocol? Complete.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="bg-velvet py-20 text-center">
+    <div class="max-w-2xl mx-auto px-6">
+      <blockquote class="italic text-xl text-pink-300 mb-4">“I thought I was smart before... but now I’m gorgeous *and* unstoppable. They can’t resist the Protocol.”</blockquote>
+      <p class="font-semibold text-pink-500">— Subject #112, Level 3 Certified</p>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-gradient-to-b from-pink-900 to-velvet text-white py-20 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-neon mb-6">Ready to rewrite your mind in velvet?</h2>
+    <a href="#" class="bg-neon text-velvet px-10 py-4 rounded-full text-lg font-semibold shadow-md hover:bg-pink-400 transition">Begin Protocol</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-pink-200 py-6 text-center text-sm">
+    © 2025 The Velvet Protocol. Confidential. Enchanting. Inevitable.
+  </footer>
+	</main>
+
+  <!-- Login page /pages/login -->
+  <Hidden />
+</div>
+
+<script>
+
+</script>

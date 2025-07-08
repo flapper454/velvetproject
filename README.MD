@@ -1,34 +1,52 @@
-AGENT ID: #045-BB
-STATUS: ACTIVE
-CLEARANCE LEVEL: ABSURDLY HIGH
-MISSION: VELVET INFILTRATION
+# Astro Starter Kit: Basics
 
->>BEGIN SECURE TRANSMISSION<<
+```sh
+npm create astro@latest -- --template basics
+```
 
-Agent,
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-Your mission—should you choose to accept it (and you literally already did, so let’s move on)—is to infiltrate the enigmatic and excessively fabulous organization known as **The Velvet Protocol**.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Intelligence suggests they are operating under the guise of a “transformational lifestyle collective,” but we suspect a deeper agenda involving:
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-- Mind reprogramming through glitter.
-- Strategic weaponization of lip gloss.
-- The complete eradication of beige.
+## 🚀 Project Structure
 
-You'll need to go undercover. Your cover identity has been uploaded to your mirror. Practice your giggle. Walk like you know all your secrets are pink.
+Inside of your Astro project, you'll see the following folders and files:
 
-Remember:
-👠 Trust no one.
-💋 Compliment often.
-🧠 Resist the sparkle (unless absolutely necessary).
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
 
-Deliver intel on the following:
-1. What *is* the Protocol, actually?
-2. Who is "Bambi Prime"?
-3. Why is everyone so... moisturized?
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-Surveillance reports suggest the cult communicates using encoded Instagram captions and perfume trails. Stay sharp. Stay fabulous. And for the love of HQ, don’t drink the rose quartz smoothies.
+## 🧞 Commands
 
-Report back once you’ve achieved Level 2 Radiance or higher.
+All commands are run from the root of the project, from a terminal:
 
-HQ out.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
